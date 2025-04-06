@@ -1,0 +1,143 @@
+body {
+	background-image: url('picturesoform/fon2.png');
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+h1{
+	color:	#DAA520	
+}
+
+h2{
+	color:	#DAA520	
+}
+
+
+p{
+	 text-indent: 25px;
+	 margin-left: 20px;
+	 margin-right: 20px;
+	 
+}
+
+#osnova {
+	background: #ffffff;
+	max-width: 1000px;
+	margin: 0 auto 0;
+	border: 1px ridge #cccccc;
+}
+
+	#header img{
+	max-width:1080px;
+	width:70%;
+	min-width:10px;
+	}
+	
+	#content img{
+	max-width:1080px;
+	width:87%;
+	min-width:10px;
+	min-height:1px;
+	max-height:1080;
+	}
+	
+	container{
+	max-width:1080px;
+	width:100%;
+	min-width:10px;
+}
+	
+#pic img {
+	max-width: 880px;
+	
+}
+
+#content{
+	margin-left: 20px;
+	font-size: 22;
+}
+
+
+
+#menu {
+	margin: 0 auto;
+}
+
+p {
+	text-align: left;
+}
+
+nav {
+	margin: 50px 0;
+	background-color:  #DAA520;
+}
+
+nav ul {
+	padding: 0;
+    margin: 0;
+	list-style: none;
+	position: relative;
+	}
+	
+nav ul li {
+	display:inline-block;
+	background-color: #DAA520;
+	}
+
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+
+nav a:hover { 
+	background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:142px;
+	float:none;
+	display:list-item;
+	position: relative;
+	left: -71px;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+	left: -71px;;
+}
+
+	
+
+
+#footer {
+    max-width: 900px;
+	margin: 0 auto 0;
+    padding: 10  ; /* Поля вокруг текста */
+    background: #DAA520	; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    min-width: 981; /* Ширина слоя */
+	text-align: left
+   }
+
