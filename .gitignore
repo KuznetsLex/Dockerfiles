@@ -1,0 +1,27 @@
+# macOS system files
+.DS_Store
+
+# Node.js / Python / etc. — добавь своё, если нужно
+node_modules/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# VS Code / JetBrains IDEs
+.vscode/
+.idea/
+
+# Local environment files
+.env
+.env.local
+*.env.*
+
+# Docker-related
+docker-compose.override.yml
+
+# Optional: OS junk
+Thumbs.db
+ehthumbs.db
+
